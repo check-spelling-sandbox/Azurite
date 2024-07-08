@@ -8,6 +8,7 @@ on:
   pull_request:
   schedule:
     - cron: '0 19 * * 0'
+  push:
 
 jobs:
   CodeQL-Build:
